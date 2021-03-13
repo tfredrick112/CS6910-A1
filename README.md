@@ -56,7 +56,7 @@ Our code provides flexibility in choosing the following hyperparameters:
 * **num_hidden**: number of hidden layers
 
 
-In addition, the function in Assignment_1_functions.ipynb code provide the additional flexibility to have different number neurons in each layers. This was not utilised in the wandb plots for simplicity as well as for the instructions given in question 6 of the assignment. 
+In addition, the function in Assignment_1_functions.ipynb code provide the additional flexibility to have different number neurons in each layers. This was not utilised in the wandb plots for simplicity as well as for the instructions given in question 4 of the assignment. 
 
 The function returns 
 
