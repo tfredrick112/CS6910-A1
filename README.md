@@ -2,6 +2,33 @@
 # CS6910 Assignment 1
 ## Authors: Dhruvjyoti Bagadthey EE17B156, D Tony Fredrick EE17B154
 
+### Instructions to train and evaluate the neural network models:
+
+1. Install the required libraries in your environment using this command:
+
+`
+pip install -r requirements.txt
+`
+
+2. To train a neural network model for image classification on the Fashion-MNIST dataset using categorical cross-entropy loss, use the notebook: **Assignment_1_Deep_Learning_wandb.ipynb**.
+
+   a.  In this notebook, to train using the best values for hyperparameters obtained from our use of the wandb sweeps functionality, do not run cells in the section titled "Hyperparameter tuning using Sweeps". Run all the other cells of the notebook to train the model. The final model will be trained on the full training set and evaluation is done on the test set.
+   b. In order to run the hyperparameter search on your own, run the full notebook.
+   
+   
+3. To train a neural network model for image classification on the Fashion-MNIST dataset using squared error loss, use the notebook: **Assignment_1_MSE_wandb.ipynb**. Follow the instructions in the above point.
+
+4. To train the model using our 3 recommendations for the set of hyperparameters on the MNIST dataset, use the notebook **Assignment_1_MNIST.ipynb**. Run all the cells to train the model and obtain evaluation results.
+
+5. To upload the example images from each class and the confusion matrices given as images `trainmatrix.png` and `testmatrix.png` in this repository, run the notebook titled: **Assignment1_Upload_Images_Matrix_Wandb.ipynb**.
+
+Note: Wherever you need to log to wandb, please remember to change the name of the entity and project in the corresponding line of code.
+
+### Link to the project report:
+
+https://wandb.ai/ee17b154tony/dl_assignment1/reports/CS6910-Assignment-1-Report--Vmlldzo1MTg4Mjk
+
+### Explanation of the project:
 
 This Github repository presents the codes for assignment 1 of CS6910. For ease of uploading and wandb integration, we have uploaded different versions of the code according to the tasks performed. 
 
