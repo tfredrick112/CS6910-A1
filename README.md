@@ -56,7 +56,7 @@ Our code provides flexibility in choosing the following hyperparameters:
 * **num_hidden**: number of hidden layers
 
 
-In addition, the function in Assignment_1_functions.ipynb code provide the additional flexibility to have different number neurons in each layers. This was not utilised in the wandb plots for simplicity as well as for the instructions given in question 4 of the assignment. 
+In addition, the function in Assignment_1_functions.ipynb code provide the additional flexibility to have different number neurons in each layers. This was not utilised in the wandb plots for simplicity as well as for the instructions given in question 6 of the assignment. 
 
 The function returns 
 
@@ -68,7 +68,7 @@ The function contains 2 loops, one epoch loop and one batch loop. Note the optim
 
 A summary of the update stages is given below:
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vThojdzpoROd58z6yJqOMQFrnlhuPmhhuZYZvgQoQmGLcL9G3F12Or1bWxzBT_HCA2DSfSvhz9h4Uqv/pub?w=960&amp;h=720">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRnI9A0_7lNuYrqttPBRGDNwlSrqfC-9AFVn8lQ8O82dgzuZQrGpnt5rFzIHchEFzA0med69H4FzMiN/pub?w=960&amp;h=720">
 
 **2. NN_predict()**
 
